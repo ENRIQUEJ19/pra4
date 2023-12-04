@@ -30,6 +30,12 @@ export class PlayerService {
       direccion: 'Machala',
       eliminado: false,
     },
+    {
+      id: 5,
+      nombre: 'Raul ',
+      direccion: 'Quito',
+      eliminado: false,
+    },
   ];
 
   create(createPlayerDto: CreatePlayerDto) {
